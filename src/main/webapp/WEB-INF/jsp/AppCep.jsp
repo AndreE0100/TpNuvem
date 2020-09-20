@@ -29,6 +29,12 @@
     color:rgba(116, 114, 236, 0.3);
   }
 
+  h4{
+    font-size:20px;
+    text-align:justify;
+    color:rgba(116,114,236,0.6);
+  }
+
 body{
 
 background-position-x: 0px;
@@ -36,6 +42,21 @@ background-image: url("img/viacep.jpg");
 background-repeat: no-repeat;
 background-size:100%;
 
+}
+
+button{
+
+border-radius: 5px;
+width:45px;
+font-family: jazz LET, fantasy;
+
+}
+
+#footer{
+padding:125px;
+margin-top:100px;
+width: 100%;
+padding-left: 0px;
 }
 
   </style>
@@ -60,10 +81,18 @@ background-size:100%;
 <div class="container">
 <h1> Seja bem vindo
 
-<h3><p>Essa aplicação tem como objetivo realizar o cadastro de produtos, contatos e usúarios<br/> e está à disposição clicando no link logo abaixo.</p>
-  <a href="https://github.com/AndreE0100/TpNuvem"><p>https://github.com/AndreE0100/TpNuvem</p></h3></a>
-
+<h3><p>Essa aplicação tem como objetivo realizar a consulta dentro de uma api. A api Viacep disponibiliza o cep, municípios e estados.<br/> clique no botão abaixo e confira o repositório no GitHub.</p>
+  <a href="https://github.com/AndreE0100/TpNuvem"><p><button>Git</button></p></h3></a>
 </h1>
+<br/>
+<div id="footer">
+<br/>
+  <h4>Turma de Engenharia de Software - Instituto Infnet<br/> 
+      Docente:Elberth Moraes</br>
+      Acadêmico:André Eduardo</h4>
+
+  <div>
+
 </div>
 </body>
 </html>
